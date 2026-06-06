@@ -1,0 +1,13 @@
+# data, models, outputs, secrets — never commit
+.env
+data/
+*.jsonl
+*.pdf
+*.pt
+*.bin
+*.safetensors
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+*.log
